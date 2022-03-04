@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+body h1, .experiencias, .experiencias p, .col-6, .contacto {
+  text-align: center;
+}
+
+.edificio-icon,
+.coffe-icon,
+.pajaros-icon,
+.one-icon {
+  height: 500px;
+  position: relative;
+  border-radius: 0;
+  margin: 0;
+  font-size: 25px;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+body .navbar {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), to(gray)) !important;
+  background-image: linear-gradient(to top, white, gray) !important;
+}
+
+body .nav-link {
+  color: #222 !important;
+}
+
+body .edificio-icon {
+  background-image: url("../imagenes/edificio.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+body .coffe-icon {
+  background-image: url("../imagenes/coffe.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+body .pajaros-icon {
+  background-image: url("../imagenes/pajaros.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+body .one-icon {
+  background-image: url("../imagenes/one.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+body p {
+  text-align: right;
+}
+
+body h1 {
+  text-shadow: 1px 1px 2px #222;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.experiencias p span {
+  font-size: 20px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.imagenes1 {
+  margin: 0 !important;
+  padding: #222;
+  border-radius: 2px;
+}
+
+.imagnes2 {
+  margin: 0 !important;
+  padding: #222;
+  border-radius: 4px;
+}
+
+.imagenes3 {
+  margin: 0 !important;
+  padding: #222;
+  border-radius: 2px;
+}
+
+.imagenes4 {
+  margin: 0 !important;
+  padding: #222;
+  border-radius: 4px;
+}
+
+.imagenes5 {
+  margin: 0 !important;
+  padding: #222;
+  border-radius: 2px;
+}
+
+.imagenes6 {
+  margin: 0 !important;
+  padding: #222;
+  border-radius: 4px;
+}
+
+#galeria img {
+  width: 100%;
+  height: 300px;
+}
+
+#galeria:hover {
+  border: 5px solid blanco;
+}
+
+li {
+  list-style: none;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Footer {
+  grid-area: Footer;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(blanco), to(#10bfc8c3));
+  background-image: linear-gradient(blanco, #10bfc8c3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Footer small {
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
