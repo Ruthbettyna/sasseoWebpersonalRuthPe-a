@@ -1,0 +1,4 @@
+# sasseoWebpersonalRuthPe-a
+En los archivos HTML agregue las etiquetas meta para optimizar el SEO utilizando para los keywords palabras como: html; programacion; sass; desarrollo web; booststrap. y en la descripción comentando de que trata cada página .
+En relación al ultimo feedback incorporé palabras mas especificas para el SEO en cada pagina de html, agregando: html, desarrollo web, programación, sass, bootstrap, diseño de webs, desarrollo de sitios webs, creación de paginas webs, reediseñar webs, paginas webs,customer service, account management, coaching, trabajo en equipo, presentación, carta personal, carta de presentación, fotografia, porfolio, galeria de imagenes, imagenes de Desarrolladora, contrata un desarrollador web, contacta un desarrollador web.
+ Y para la descripción especifique en detalle los servicios que ofrezco, quien soy y mis pasos para llegar a mi nueva pasión del desarrollo web y programación.
