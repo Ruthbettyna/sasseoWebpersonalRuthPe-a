@@ -113,6 +113,17 @@ body {
         ul {
             display: flex;
         }
+        .skills {
+            padding: 2%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 5%;
+            .btn-primary {
+                background-color: $color1;
+                border: $color1;
+            }
+        }
         .Footer { grid-area: Footer; 
             background-image: linear-gradient($color2, $color3);
             display: flex;
